@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	 
 	
 	/**
 	 * Simply selects the home view to render by returning its name.
@@ -26,13 +27,16 @@ public class HomeController {
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
+		System.out.println("aaaaaaaa");
+		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
 		String formattedDate = dateFormat.format(date);
+		System.out.println("test");
+		
 		
 		model.addAttribute("serverTime", formattedDate );
-		
 		
 		return "home";
 	}
