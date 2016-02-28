@@ -7,7 +7,7 @@
 <body>
 <h1>
 	Hello world!!!  
-	테스트입니다.
+	hangul ggegim
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
