@@ -10,6 +10,8 @@
 	hangul ggegim
 	
 	Hello I'm Bean K. ! Yeah
+	자료 만드는 중 입니다.
+	
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
